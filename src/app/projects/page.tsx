@@ -19,7 +19,7 @@ const ProjectsPage: React.FC = () => {
                 {/* Project Grid */}
                 <div className="grid gap-12 lg:grid-cols-2">
 
-                    {/* Project Card: Car Information Website */}
+                    {/* Project Card: TODO list */}
                     <div className="project-card bg-white rounded-lg shadow-md hover:shadow-xl p-8 transition-shadow duration-300 border-t-4 border-teal-400">
                         <h3 className="text-3xl font-semibold text-blue-700 mb-3">Todo list</h3>
                         <p className="text-gray-800 mb-5">
@@ -35,6 +35,29 @@ const ProjectsPage: React.FC = () => {
                         </a>
                         <Image
                             src="/todo.jpeg"
+                            alt="todo list Screenshot"
+                            width={400}
+                            height={300}
+                            className="rounded-lg shadow-md border"
+                        />
+                    </div>
+
+                    {/* Project Card: Resume Builder */}
+                    <div className="project-card bg-white rounded-lg shadow-md hover:shadow-xl p-8 transition-shadow duration-300 border-t-4 border-teal-400">
+                        <h3 className="text-3xl font-semibold text-blue-700 mb-3">Resume Builder</h3>
+                        <p className="text-gray-800 mb-5">
+                            Resume Builder Hackhton
+                        </p>
+                        <a 
+                            href="https://github.com/AzmeenaAbdulJabbbar/Milstone-Resume-Builder"
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            className="inline-block text-blue-500 font-semibold hover:underline mb-5"
+                        >
+                            GitHub Repository
+                        </a>
+                        <Image
+                            src="/resume.png"
                             alt="todo list Screenshot"
                             width={400}
                             height={300}
